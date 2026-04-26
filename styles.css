@@ -108,10 +108,10 @@ body {
     transform: translate3d(var(--x-start, -10vw), var(--y-start, 0), -1800px) scale(.6);
     opacity: 0;
   }
-  20%  { opacity: .35; }
+  20%  { opacity: .15; }
   60%  {
     transform: translate3d(var(--x-end, 10vw), var(--y-end, 0), 200px) scale(1);
-    opacity: .55;
+    opacity: .25;
   }
   100% {
     transform: translate3d(var(--x-end, 10vw), var(--y-end, 0), 1200px) scale(1.35);
